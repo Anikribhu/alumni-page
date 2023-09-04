@@ -10,7 +10,7 @@
 
 
 .hex-grids {
-    --s: 150px; /* control the size */
+    --s: 220px; /* control the size */
     --g: 10px;  /* control the gap */
     display: grid;
     margin: calc(var(--s) + var(--g));
