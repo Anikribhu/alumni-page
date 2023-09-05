@@ -170,3 +170,109 @@ body {
     font-weight: 400;
     color: white;
 }
+
+/* Fourth Grid Position */
+
+.text4 img{
+    position: absolute;
+    top: 12.9%;
+    left: 41.8%;
+    bottom:50%;
+    z-index: 8;
+}
+
+.text4 h2{
+    position: absolute;
+    top: 35.5%;
+    left: 58.5%;
+    bottom:50%;
+    z-index: 8;
+    font-size: 36px;
+    font-family: 'Lexend Deca';
+    font-weight: bold;
+    color: white;
+}
+
+.text4 p{
+    position: absolute;
+    top: 40%;
+    left: 55.5%;
+    bottom:50%;
+    word-spacing: 2px;
+    z-index: 8;
+    font-size: 16px;
+    font-family: 'Comic Neue';
+    font-weight: 400;
+    color: white;
+}
+
+/* Fifth Grid Position */
+
+.text5 img{
+    position: absolute;
+    top: 17.9%;
+    left: 36.5%;
+    bottom:50%;
+    z-index: 8;
+}
+
+.text5 h2{
+    position: absolute;
+    top: 55.5%;
+    left: 39.9%;
+    bottom:50%;
+    z-index: 8;
+    font-size: 36px;
+    font-family: 'Lexend Deca';
+    font-weight: bold;
+    color: white;
+}
+
+.text5 p{
+    position: absolute;
+    top: 61.5%;
+    left: 38%;
+    bottom:50%;
+    word-spacing: 2px;
+    z-index: 8;
+    font-size: 16px;
+    font-family: 'Comic Neue';
+    font-weight: 400;
+    color: white;
+}
+
+/* Sixth Grid Position */
+
+.text6 img{
+    position: absolute;
+    top: 6.9%;
+    left: 45.5%;
+    bottom:50%;
+    z-index: 8;
+    width: 500px;
+}
+
+.text6 h2{
+    position: absolute;
+    top: 49.5%;
+    left: 58.5%;
+    bottom:50%;
+    z-index: 8;
+    font-size: 36px;
+    font-family: 'Lexend Deca';
+    font-weight: bold;
+    color: white;
+}
+
+.text6 p{
+    position: absolute;
+    top: 54.5%;
+    left: 58.5%;
+    bottom:50%;
+    word-spacing: 2px;
+    z-index: 8;
+    font-size: 17px;
+    font-family: 'Comic Neue';
+    font-weight: 400;
+    color: white;
+}
