@@ -1,0 +1,75 @@
+body{
+    background: url('/Assets/black_background.png');
+    background-size: cover;
+}
+
+.question-mark{
+    z-index: -1;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 37%;
+    top: 10%;
+}
+
+
+.grid-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0rem;
+    gap: 3px;
+}
+.grid-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transform: rotateZ(90deg);
+    z-index: 1;
+    position: absolute;
+    top: 0rem;
+    gap: 4px;
+}
+.grid-3{
+    transform: rotateZ(90deg);
+    position: absolute;
+    top: 17.35rem;
+    gap: 4px;
+}
+
+.box-1 img{
+    width: 15.3rem;
+    opacity: 0.9;
+}
+
+.box-2 img{
+    width: 15rem;
+    opacity: 0.9;
+}
+
+.box-3 img{
+    width: 15rem;
+    opacity: 0.9;
+}
+
+.box-4 img{
+    width: 15rem;
+    opacity: 0.9;
+}
+
+.box-5 img{
+    width: 15rem;
+}
+
+.box-6 img{
+    width: 15rem;
+}
+
