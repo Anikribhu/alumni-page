@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Kanit:wght@100&display=swap');
+
+
 body{
     background: url('/Assets/black_background.png');
     background-size: cover;
@@ -8,6 +11,7 @@ body{
 }
 
 .info{
+    font-family: 'Comic Neue', cursive;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,6 +30,66 @@ body{
     position: absolute;
     top: 0rem;
     gap: 3px;
+}
+.grid-1 .lr{
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 10;
+    margin-top: 80px;
+    padding: 0 40px;
+    
+}
+.lr2 {
+    font-size: 0.9rem;
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 10;
+    margin-top: 72px;
+    padding: 0 40px;
+}
+.lr3 {
+    transform: rotateZ(-90deg);
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 10;
+    margin-top: 72px;
+    padding: 0 40px;
+}
+.lr4 {
+    transform: rotateZ(-90deg);
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 10;
+    margin-top: 72px;
+    margin-right: 0px;
+    padding: 0 20px 0 50px;
+}
+
+.lr5{
+    font-size: 0.9rem;
+    transform: rotateZ(-90deg);
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 10;
+    margin-top: 72px;
+    margin-right: 0px;
+    padding: 0 20px 0 30px ;
+}
+.lr6 {
+    font-size: 0.9rem;
+    transform: rotateZ(-90deg);
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 10;
+    margin-top: 72px;
+    margin-right: 0px;
+    padding: 0 40px 0 30px ;
 }
 .grid-2{
     display: flex;
