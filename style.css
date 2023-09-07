@@ -98,216 +98,140 @@ body {
     align-items: center;
 }
 
-/* First Grid Position */
 
-/* .text1 img{
+body{
+    background: url('/Assets/black_background.png');
+    background-size: cover;
+}
+
+.question-mark{
+    z-index: -1;
+}
+
+.info{
+    font-family: 'Comic Neue', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
+    left: 37%;
     top: 10%;
-    left: 39.2%;
-    bottom:50%;
-    z-index: 8;
 }
 
 
-.text1 h2{
+.grid-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     position: absolute;
-    top: 26%;
-    left: 48.7%;
-    bottom:50%;
-    z-index: 8;
-    font-size: 36px;
-    font-family: 'Lexend Deca';
-    font-weight: bold;
+    top: 0rem;
+    gap: 3px;
+}
+.grid-1 .lr{
+    text-align: center;
     color: white;
-}
-
-.text1 p{
     position: absolute;
-    top: 31%;
-    left: 46.7%;
-    bottom:50%;
-    z-index: 8;
-    font-family: 'Comic Neue';
-    font-weight: 400;
+    z-index: 10;
+    margin-top: 80px;
+    padding: 0 40px;
+    
+}
+.lr2 {
+    font-size: 0.9rem;
+    text-align: center;
     color: white;
-}
-
-
-
-.text1{
-    width: 220px;
-    height: auto;
-}
-
-
-
-.text2 img{
     position: absolute;
-    top: 13%;
-    left: 36.5%;
-    bottom:50%;
-    z-index: 8;
+    z-index: 10;
+    margin-top: 72px;
+    padding: 0 40px;
 }
-
-.text2 h2{
-    position: absolute;
-    top: 36%;
-    left: 39.5%;
-    bottom:50%;
-    z-index: 8;
-    font-size: 36px;
-    font-family: 'Lexend Deca';
-    font-weight: bold;
+.lr3 {
+    transform: rotateZ(-90deg);
+    text-align: center;
     color: white;
-}
-
-.text2 p{
     position: absolute;
-    top: 41%;
-    left: 37.5%;
-    bottom:50%;
-    z-index: 8;
-    font-family: 'Comic Neue';
-    font-weight: 400;
+    z-index: 10;
+    margin-top: 72px;
+    padding: 0 40px;
+}
+.lr4 {
+    transform: rotateZ(-90deg);
+    text-align: center;
     color: white;
+    position: absolute;
+    z-index: 10;
+    margin-top: 72px;
+    margin-right: 0px;
+    padding: 0 20px 0 50px;
 }
 
-
-
-.text3 img{
-    position: absolute;
-    top: 31%;
-    left: 39.5%;
-    bottom:50%;
-    z-index: 8;
-}
-
-.text3 h2{
-    position: absolute;
-    top: 46.5%;
-    left: 48.2%;
-    bottom:50%;
-    z-index: 8;
-    font-size: 36px;
-    font-family: 'Lexend Deca';
-    font-weight: bold;
+.lr5{
+    font-size: 0.9rem;
+    transform: rotateZ(-90deg);
+    text-align: center;
     color: white;
-}
-
-.text3 p{
     position: absolute;
-    top: 51.5%;
-    left: 46.89%;
-    bottom:50%;
-    z-index: 8;
-    font-size: 20px;
-    font-family: 'Comic Neue';
-    font-weight: 400;
+    z-index: 10;
+    margin-top: 72px;
+    margin-right: 0px;
+    padding: 0 20px 0 30px ;
+}
+.lr6 {
+    font-size: 0.9rem;
+    transform: rotateZ(-90deg);
+    text-align: center;
     color: white;
+    position: absolute;
+    z-index: 10;
+    margin-top: 72px;
+    margin-right: 0px;
+    padding: 0 40px 0 30px ;
+}
+.grid-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transform: rotateZ(90deg);
+    z-index: 1;
+    position: absolute;
+    top: 0rem;
+    gap: 4px;
+}
+.grid-3{
+    transform: rotateZ(90deg);
+    position: absolute;
+    top: 17.35rem;
+    gap: 4px;
 }
 
-
-
-.text4 img{
-    position: absolute;
-    top: 12.9%;
-    left: 41.8%;
-    bottom:50%;
-    z-index: 8;
+.box-1 img{
+    width: 15.3rem;
+    opacity: 0.9;
 }
 
-.text4 h2{
-    position: absolute;
-    top: 35.5%;
-    left: 58.5%;
-    bottom:50%;
-    z-index: 8;
-    font-size: 36px;
-    font-family: 'Lexend Deca';
-    font-weight: bold;
-    color: white;
+.box-2 img{
+    width: 15rem;
+    opacity: 0.9;
 }
 
-.text4 p{
-    position: absolute;
-    top: 40%;
-    left: 55.5%;
-    bottom:50%;
-    word-spacing: 2px;
-    z-index: 8;
-    font-size: 16px;
-    font-family: 'Comic Neue';
-    font-weight: 400;
-    color: white;
+.box-3 img{
+    width: 15rem;
+    opacity: 0.9;
 }
 
-
-
-.text5 img{
-    position: absolute;
-    top: 17.9%;
-    left: 36.5%;
-    bottom:50%;
-    z-index: 8;
+.box-4 img{
+    width: 15rem;
+    opacity: 0.9;
 }
 
-.text5 h2{
-    position: absolute;
-    top: 55.5%;
-    left: 39.9%;
-    bottom:50%;
-    z-index: 8;
-    font-size: 36px;
-    font-family: 'Lexend Deca';
-    font-weight: bold;
-    color: white;
+.box-5 img{
+    width: 15rem;
 }
 
-.text5 p{
-    position: absolute;
-    top: 61.5%;
-    left: 38%;
-    bottom:50%;
-    word-spacing: 2px;
-    z-index: 8;
-    font-size: 16px;
-    font-family: 'Comic Neue';
-    font-weight: 400;
-    color: white;
+.box-6 img{
+    width: 15rem;
 }
 
-
-
-.text6 img{
-    position: absolute;
-    top: 6.9%;
-    left: 45.5%;
-    bottom:50%;
-    z-index: 8;
-    width: 500px;
-}
-
-.text6 h2{
-    position: absolute;
-    top: 49.5%;
-    left: 58.5%;
-    bottom:50%;
-    z-index: 8;
-    font-size: 36px;
-    font-family: 'Lexend Deca';
-    font-weight: bold;
-    color: white;
-}
-
-.text6 p{
-    position: absolute;
-    top: 54.5%;
-    left: 58.5%;
-    bottom:50%;
-    word-spacing: 2px;
-    z-index: 8;
-    font-size: 17px;
-    font-family: 'Comic Neue';
-    font-weight: 400;
-    color: white;
-} */
